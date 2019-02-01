@@ -3,6 +3,9 @@ microphone sensor node using LoRa technology.
 This project consists of two nodes: one that acts as a sender, and the other acts as a receiver.
 The microcontroller used in this project is: Arduino Mega Board.
 
+## The Goal
+Using the Client Node to sense microphone values and send them to the server node, and then sends the data through Serial part to Python code that prints the data to CSV file.
+
 ## Building the end-node
 The sender sensor node has a microphone and sensor, in addition to LoRa shield that allows the node to communicate with the receiver. 
 Consider the Dragino LoRa Shield provided in the following picture:
